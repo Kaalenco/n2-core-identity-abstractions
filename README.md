@@ -1,4 +1,3 @@
-# n2-core-entity-abstractions
+# n2-core-identity-abstractions
 
-C# library with abstractions for standardized 
-use of entity framework in database projects.
+C# library with abstractions for using authentication and authorization
