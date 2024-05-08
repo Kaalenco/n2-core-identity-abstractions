@@ -21,6 +21,14 @@
     <RootNamespace>N2.Core.Identity</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="n2.core.abstractions" Version="1.0.3"/>
   </ItemGroup>
