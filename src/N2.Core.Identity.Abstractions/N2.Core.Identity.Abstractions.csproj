@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>N2 Core Abstractions</Title>
+    <Description>Interfaces and classes for standadized use of identity</Description>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <IncludeSymbols>False</IncludeSymbols>
+    <PackageVersion>1.0.3</PackageVersion>
+    <PackageLicenseExpression>AFL-3.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/gjkaal/n2-core-abstractions</PackageProjectUrl>
+    <PackageId>n2.core.identity.abstractions</PackageId>
+    <Authors>gjkaal</Authors>
+    <PackageType>Dependency</PackageType>
+    <RootNamespace>N2.Core.Identity</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="n2.core.abstractions" Version="1.0.3"/>
+  </ItemGroup>
+  
+</Project>
