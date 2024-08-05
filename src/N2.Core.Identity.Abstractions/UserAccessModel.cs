@@ -4,9 +4,9 @@ namespace N2.Core.Identity;
 
 public class UserAccessModel : IUserAccess
 {
-    public ICollection<RoleRight> RoleRights { get; set; } = new Collection<RoleRight>();
-    public ICollection<UserRight> UserRights { get; set; } = new Collection<UserRight>();
-    public ICollection<UserSelectItem> Assigned { get; set; } = new Collection<UserSelectItem>();
+    public ICollection<RoleRight> RoleRights { get; set; } = [];
+    public ICollection<UserRight> UserRights { get; set; } = [];
+    public ICollection<UserSelectItem> Assigned { get; set; } = [];
     public Guid OwnerId { get; set; }
     public string OwnerName { get; set; } = string.Empty;
 }
